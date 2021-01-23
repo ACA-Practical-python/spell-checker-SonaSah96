@@ -3,7 +3,7 @@ from utils import soundex
 from checker import final_words
 
 
-def rep():
+def report():
     print("Choose from options:\n 1.Levenshtein\n 2.Soundex\n 3.Spell correction")
     answer = input("Type 1,2 or 3: ")
     if answer == "1":
@@ -18,4 +18,6 @@ def rep():
         print(f'Possible options: {final_words(misspelled_word)}')
 
 
-rep()
+if __name__ == "__main__":
+    report()
+
