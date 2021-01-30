@@ -72,5 +72,18 @@ Exp2: Choose from options: <br />
        Soundex code for "example" is E251 <br />
        
        
-       
-Step 2. TBD.
+Step 2. 
+
+1. create file checker.py <br />
+2. in the checker.py file write function that will map Soundex code to words of dictionary.txt file (find out best(fastest) way to implement mapping) <br />
+3. in the checker.py file write function that get misspelled word, count Soundex code, get list of words that has the same Soundex code as misspelled word, count Levenstein distance between misspelled word and that list of words and return words that have minimal Levenstein distance with misspelled word. <br />
+4. update main.py to work as follows: <br />
+
+Exp.: Choose from options: <br />
+        1. Levenshtein <br />
+        2. Soundex <br />
+        3. Spell correction <br />
+      Type 1, 2 or 3: 3 <br />
+      Write misspelled word: sprinq <br />
+      Possible options: spring, sprint
+ 
